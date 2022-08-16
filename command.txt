@@ -1,0 +1,7 @@
+git remote add origin origin_url
+git add file_name
+git commit -m "message"
+git status
+git stash (to put all work on hold while commiting message)
+git push origin master
+git remote -v
