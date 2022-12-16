@@ -1,3 +1,2 @@
 # git_course
-Tutorial is for beginner
-explaination of creating the repo, clone the repo, adding, comming changes, branches, push the code to repo
+This tutorial is for beginner level explaination of creating the repo, clone the repo, adding, comming changes, branches, push the code to repo
