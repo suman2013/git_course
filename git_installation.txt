@@ -1,0 +1,8 @@
+Download git according to your operating system
+and install it
+after installing check with below command
+
+*Command to check git installed
+  git
+*Command to check git version
+  git -v
