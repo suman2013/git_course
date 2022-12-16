@@ -1,3 +1,65 @@
+***   Follow below instruction in windows to start with git  ***
+
+//Go to path
+  cd "Path you want to choose"
+
+//create folder
+  mkdir "Folder name"
+
+//git initialization
+  git init
+
+//create empty file
+  type nul > file.txt
+
+//create file with some text
+  echo This is a sample text file > sample.txt
+
+//change file with some text and check status of git, it will show untracked files which got change but not saved in git history
+  git status
+
+//temporary save file in git history (stagged area)
+  git add .   //it will save all untracked files
+  git add filename   //it will add individual file
+
+//remove file from history (stagged area to unstaged area)
+  git restore --staged filename
+
+//commiting the changes saved in stated area
+  git commit -m "write the message about changes in file"
+
+//check the history of commits locally
+  git log
+
+//Remove commit from history of project
+  git reset "commit id from commit history" //commit above the selected commit id will be removed and all changes file will go to staged area
+
+//restore deleted files
+  git restore filename
+
+//something you have changed but dont want to commit and need later then you can save it in stashing area and can bring whenever you want to commit
+//  add the files and stash it with below command
+  git stash
+
+//Bring files which is stashed
+  git stash pop   // files will come in unstaged area
+
+//Add origin from your repo created on GitHub
+  git add remote origin origin_url
+
+//Push commit on GitHub
+  git push origin branch_name
+
+//pull changes from from GitHub
+  git pull origin branch_name
+
+
+
+
+
+
+
+
 git remote add origin origin_url
 git add file_name
 git commit -m "message"
