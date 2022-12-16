@@ -39,7 +39,7 @@
 
 //something you have changed but dont want to commit and need later then you can save it in stashing area and can bring whenever you want to commit
 //  add the files and stash it with below command
-  git stash
+  git stash (to put all work on hold while commiting message)
 
 //Bring files which is stashed
   git stash pop   // files will come in unstaged area
@@ -55,15 +55,21 @@
 
 
 
+*** Working with existing repo on GitHub ***
 
+/**   if it project does not exist on your account and you want to contribute to others project or open source then first fork the project on your
+      account then start with below commands  **/
 
+//clone the repo on local system
+  git clone "repo url copy from GitHub"
 
+//create new branch from main branch
+  git branch branch_name
 
+//checkout to created branch
+  git checkout branch_name
 
-git remote add origin origin_url
-git add file_name
-git commit -m "message"
-git status
-git stash (to put all work on hold while commiting message)
-git push origin master
-git remote -v
+//create branch and checkout with single command
+  git checkout -b branch_name
+
+/** Start changes and follow above commands add and commit **/
