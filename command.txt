@@ -76,6 +76,7 @@
 
 //pull main branch into other sub branch
   git pull subbranch_name  mainbranch_name
+<<<<<<< HEAD
 
 //merge and squash commits into one
 /** You have multiple commits, run command "git log" and select one commit id and run below command **/
@@ -85,3 +86,5 @@
 
 //reset the commits
 git reset --hard commit_id //it will goes to stage of commit selected, all commits above selected commit will be deleted
+=======
+>>>>>>> abc572e85acea81906df4ef09e9a51a08e5edd82
