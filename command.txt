@@ -76,3 +76,5 @@
 
 //pull main branch into other sub branch
   git pull subbranch_name  mainbranch_name
+
+//merge and squash commits into one
