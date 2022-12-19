@@ -73,3 +73,6 @@
   git checkout -b branch_name
 
 /** Start changes and follow above commands add and commit **/
+
+//pull main branch into other sub branch
+  git pull subbranch_name  mainbranch_name
